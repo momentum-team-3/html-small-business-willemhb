@@ -1,0 +1,41 @@
+header {
+    background-color: green;
+}
+
+header > h1 {
+        color: white;
+}
+
+nav {
+     display: flex;
+     flex-direction: row;
+ }
+
+ nav a {
+     padding: 1px 10px;
+     background-color: green;
+     color: white;
+ }
+
+ nav a:hover {
+     background-color: rgb(255,255,255);
+     color: rgb(0,128,0);
+ }
+
+.front-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.in-stock {
+    float: left;
+    padding-right: 5px;
+}
+
+p {
+    padding-top: 10px;
+}
+
+/* margin: 5px; all
+   margin: 5px 10px: vertical, horizontal
+   margin: 5px 10px 10px 20px; top, right, bottom, left */
